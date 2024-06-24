@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Age Calculator</h1>
+  </header>
+  <main class="main">
+    <div class="container">
+      <h2>Calculate Your Age</h2>
+      <form id="ageForm">
+        <div class="input-group">
+          <input type="number" id="day" placeholder="Day (DD)" min="1" max="31" required>
+        </div>
+        <div class="input-group">
+          <input type="number" id="month" placeholder="Month (MM)" min="1" max="12" required>
+        </div>
+        <div class="input-group">
+          <input type="number" id="year" placeholder="Year (YYYY)" min="1900" required>
+        </div>
+        <button type="submit">Calculate Age</button>
+      </form>
+      <div class="result" id="result"></div>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 Age Calculator. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
